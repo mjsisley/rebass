@@ -1,7 +1,8 @@
 {
   "name": "rebass",
   "version": "1.0.4",
-  "description": "Functional React UI component library, built with styled-components",
+  "description":
+    "Functional React UI component library, built with styled-components",
   "main": "dist/index.js",
   "scripts": {
     "prepublish": "babel src -d dist",
@@ -20,11 +21,11 @@
     "stateless",
     "functional"
   ],
-  "author": "Brent Jackson",
+  "author": "mjsisley",
   "license": "MIT",
   "dependencies": {
     "grid-styled": "^2.0.0-10",
-    "palx": "^1.0.2",
+    "@mjsisley/palx": "^1.0.1",
     "prop-types": "^15.5.10",
     "recompose": "^0.23.5",
     "styled-components": "^2.1.2",
@@ -57,16 +58,10 @@
   },
   "homepage": "https://github.com/jxnblk/rebass",
   "ava": {
-    "require": [
-      "babel-register"
-    ],
+    "require": ["babel-register"],
     "babel": "inherit"
   },
   "nyc": {
-    "exclude": [
-      "test",
-      "docs",
-      "stories"
-    ]
+    "exclude": ["test", "docs", "stories"]
   }
 }
